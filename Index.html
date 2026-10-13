@@ -281,7 +281,6 @@ return nama.split(" ").filter(Boolean).slice(0, 2)
 function warnaKelas(kelas) {
 let total = 0;
 for (const huruf of kelas || "") total += huruf.charCodeAt(0);
-Page 12 of 1
   return (total * 47) % 360;
 }
 // "2010-05-17" -> "17 Mei 2010"
